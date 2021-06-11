@@ -1,0 +1,12 @@
+<head>
+    @include('partials._head')
+    @yield('extra-script')
+</head>
+<body>
+    @include('partials._nav')
+    @yield('content')
+    @include('partials._footer')
+    @include('partials._javascript')
+    @yield('scripts')
+    @yield('extra-js')
+</body>
